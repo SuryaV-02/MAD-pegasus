@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/iv_result"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/pegasus"
+        />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_findpair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find my pair"
+        />
+</LinearLayout>
+</FrameLayout>
